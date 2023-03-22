@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "id": 1678262980472.6228,
+      "img": "",
+      "nam": "",
+      "auth": "",
+      "genr": "science",
+      "edit": "2020",
+      "publ": "",
+      "cos": "",
+      "boolean": "false"
+    },
+    {
+      "id": 1678263035691.6055,
+      "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1572293115-41zqZwXZ-WL.jpg?crop=1.00xw:0.984xh;0,0.00600xh&resize=980:*",
+      "nam": "The Night Fire",
+      "auth": "Michael Connely",
+      "genr": "business",
+      "edit": "2021",
+      "publ": "michael",
+      "cos": "3000"
+    },
+    {
+      "id": 1678378288758.7039,
+      "img": "",
+      "nam": "buji",
+      "auth": "",
+      "genr": "science",
+      "edit": "2020",
+      "publ": "",
+      "cos": ""
+    },
+    {
+      "id": 1678378598406.0972,
+      "img": "gggg",
+      "nam": "",
+      "auth": "",
+      "genr": "science",
+      "edit": "2020",
+      "publ": "",
+      "cos": ""
+    },
+    {
+      "id": 1678380733562.4116,
+      "img": "",
+      "nam": "",
+      "auth": "",
+      "genr": "science",
+      "edit": "2020",
+      "publ": "",
+      "cos": "7777",
+      "borrow": true
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div id="main" >
+        <a href="./admin.html">Admin</a> 
+        <a href="./index.html">Books Page</a>
+        <a href="./borrowed.html">Borrowed Books</a> 
+    </div>
+    <h1>Add Book Data</h1>
+       <div id="form">
+
+        <input type="url" id="image" placeholder="image">
+        <input type="text" id="name" placeholder="name">
+        <input type="text" id="author" placeholder="author">
+       <select name="genre" id="genre" >
+        <option value="science">science</option>
+        <option value="fiction">fiction</option>
+        <option value="history">history</option>
+        <option value="tech">tech</option>
+        <option value="business">business</option>
+       </select>
+       <select name="edition" id="edition">
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+       </select>
+        <input type="text" id="publisher" placeholder="publisher">
+        <input type="number" id="cost" placeholder="cost">
+        <!-- <input type="text"> -->
+
+        <button onclick="addData(event)">Add Data</button>
+       </div>
+
+
+
+    <div >
+        
+        <h1>Book Details</h1>
+      <table id="tab">
+       
+            <thead>
+                <tr>
+                 <td >Image</td>
+                 <td>Name</td>
+                 <td>Author</td>
+                 <td>Genre</td>
+                 <td>Edition</td>
+                 <td>Publisher</td>
+                 <td>Cost</td>
+                 <td>Edit</td>
+                 <td>Delete</td>
+                 <td>borrow</td>
+                </tr>
+            </thead>
+            <tbody id="container">
+            <!-- <tr>
+                <td  id="ti">image</td>
+                 <td id="tn">name</td>
+                 <td id="ta">author</td>
+                 <td id="tg">genre</td>
+                 <td id="te">edition</td>
+                 <td id="tp">publisher</td>
+                 <td id="tc">cost</td>
+            </tr> -->
+        </tbody>
+      </table>
+
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="form">
+
+            <input type="url" id="uimage" placeholder="image">
+            <input type="text" id="uname" placeholder="name">
+            <input type="text" id="uauthor" placeholder="author">
+           <select name="genre" id="ugenre" >
+            <option value="science">science</option>
+            <option value="fiction">fiction</option>
+            <option value="history">history</option>
+            <option value="tech">tech</option>
+            <option value="business">business</option>
+           </select>
+           <select name="edition" id="uedition">
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+           </select>
+            <input type="text" id="upublisher" placeholder="publisher">
+            <input type="number" id="ucost" placeholder="cost">
+            
+            <!-- <input type="text"> -->
+    
+            <button id="updatebtn" >update Data</button>
+          
+        </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
+
+<script src="admin.js"></script>
